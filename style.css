@@ -1,15 +1,29 @@
 .navbar-dark .navbar-toggler{
    border-color: rgb(250, 250, 250);
 }
-
-@media (max-width: 400px){
-   .navbar-brand img{
-      width: 150px;
+@media (max-width: 768px){
+   #home img{
+      width: 400px;
+   }
+   #container-mulher{
+      text-align: center;
    }
 }
-@media (max-width: 285px){
+@media (max-width: 425px){
+   #home img{
+      width: 100%;
+   }
+   #home form .form-control{
+      width: 100%;
+   }
+   #home form input,
+   #home form button{
+      border-radius: 4.8px;
+   }
+}
+@media (max-width: 250px){
    .navbar-brand img{
-      width: 105px;
+      width: 130px;
    }
 }
 
