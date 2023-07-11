@@ -1,7 +1,7 @@
 <h1 align="center"> Finas - Finanças pessoais </h1>
 
 <p align="center">
-Modelo de site utilizando Bootstrap e ferramentas de responsividade. <br/>
+Modelo de site utilizando Bootstrap, ferramentas de responsividade, Flexbox e Grid . <br/>
 </p>
 
 <p align="center">
