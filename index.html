@@ -9,6 +9,7 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     
@@ -17,7 +18,7 @@
   <body>
       <header>
         <nav class="bg-warning navbar navbar-expand-sm navbar-dark ">
-          <div class="container">
+          <section class="container">
             <a href="" class="navbar-brand"><img src="assets/logo.png" alt="logo" width="142"></a>
 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
@@ -29,15 +30,15 @@
                 <li class="nav-item "><a class="nav-link text-white" href="">Home</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="">Recursos</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="">Benefícios</a></li>
-                <li class="nav-item"><a class="nav-link text-white mr-2" href="">Preços</a></li>
+                <li class="nav-item"><a class="nav-link text-white mr-4" href="">Preços</a></li>
                 <button class="nav-item btn btn-outline-light mr-auto">Entrar</button>
               </ul>
             </div>
-          </div>
+          </section>
         </nav>
         <div id="home" class="bg-warning text-white">
           <div class="container">
-            <div class="row">
+            <section class="row">
               <div class="col-md-6 d-flex flex-column align-self-center">
                 <h1 class="display-4">Suas contas, descomplicadas</h1>
                 <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.</p>
@@ -49,16 +50,87 @@
                     </div>
                   </div>
                 </form>
+                <p>Disponível para 
+                  <a href="" class=" btn btn-outline-light"> 
+                    <i class="fab fa-android fa-lg"></i>
+                  </a>
+                  <a href="" class="btn btn-outline-light">
+                    <i class="fab fa-apple fa-lg"></i>
+                  </a> 
+                </p>                
               </div>
               <div id="container-mulher" class="col-md-6">
-                <img width="100%" src="assets/capa-mulher.png" alt="">
+                <img width="426px" src="assets/capa-mulher.png" alt="">
               </div>
-            </div>
+            </section>
           </div>
         </div>
       </header>
-      <main></main>
-      <footer></footer>
+      <div id="container" class="container">
+
+        <main>
+          <section id="section-1" class="caixa">
+            <div class="row">
+              <div class="col-md-6 d-flex flex-column align-self-center">
+                <h2>Saiba para onde vai o seu dinheiro</h2>
+                <p>Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.</p>
+                <a href="" class="btn btn-primary mr-auto">Veja mais</a>
+              </div>
+              <div class="col-md-6">
+                <img src="assets/saiba.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </section>
+          <section id="section-2" class="caixa">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="assets/juros.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-6 d-flex flex-column align-self-center">
+                <h2>Pare de pagar juros e economize</h2>
+                <p>Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a receber!</p>
+                <a href="" class="btn btn-primary mr-auto">Veja mais</a>
+              </div>
+            </div>
+          </section>
+          <section id="section-3" class="caixa">
+            <div class="row">
+              <div class="col-md-4 d-flex flex-column align-self-center">
+                <img src="assets/facil.png" alt="" class="img-fluid">
+                <h4>Fácil de usar</h4>
+                <p>O Finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças. Simples como tem que ser!</p>
+              </div>
+              <div class="col-md-4 d-flex flex-column align-self-center">
+                <img src="assets/economize.png" alt="" class="img-fluid">
+                <h4>Economize seu tempo</h4>
+                <p>Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa pra você!</p>
+              </div>
+              <div class="col-md-4 d-flex flex-column align-self-center">
+                <img src="assets/suporte.png" alt="" class="img-fluid">
+                <h4>Suporte amigo</h4>
+                <p>Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!</p>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <footer class="row mt-4 mb-4">
+          <div id="footer-links" class="col-md-8 d-flex">
+            <p>
+              <a href="">Home</a>
+              <a href="">Recursos</a>
+              <a href="">Benefícios</a>
+              <a href="">Preços</a>
+            </p>
+          </div>
+          <div id="social-media" class="col-md-4 d-flex">
+            <a href="" class="btn btn-outline-dark ml-2"><i class="fab fa-facebook-square"></i></a>
+            <a href="" class="btn btn-outline-dark ml-2"><i class="fab fa-twitter"></i></a>
+            <a href="" class="btn btn-outline-dark ml-2"><i class="fab fa-instagram"></i></a>
+            <a href="" class="btn btn-outline-dark ml-2"><i class="fab fa-youtube"></i></a>
+          </div>
+        </footer>
+      </div>
 
      <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

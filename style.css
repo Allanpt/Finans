@@ -1,12 +1,34 @@
 .navbar-dark .navbar-toggler{
    border-color: rgb(250, 250, 250);
 }
-@media (max-width: 768px){
+.caixa {
+   padding: 60px 0;
+   border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a{
+   margin: 0 15px;
+}
+footer #social-media{
+   justify-content: end;
+}
+
+/*Media Queries*/
+@media (max-width: 991px){
+   #home img{
+      width: 100%;
+   }
+}
+@media (max-width: 767px){
    #home img{
       width: 400px;
    }
    #container-mulher{
       text-align: center;
+   }
+   footer #social-media,
+   footer #footer-links {
+      justify-content: center;
    }
 }
 @media (max-width: 425px){
@@ -20,10 +42,28 @@
    #home form button{
       border-radius: 4.8px;
    }
+   #home h1{
+      font-size: 3em;
+   }
+}
+@media (max-width: 340px){
+   #home h1{
+      font-size: 2.3em;
+   }
 }
 @media (max-width: 250px){
    .navbar-brand img{
       width: 130px;
+   }
+   #home h1{
+      font-size: 2em;
+   }
+   #home .input-group-lg>.form-control, .input-group-lg>.input-group-append>.btn, .input-group-lg>.input-group-append>.input-group-text, .input-group-lg>.input-group-prepend>.btn, .input-group-lg>.input-group-prepend>.input-group-text {
+      height: calc(1.8125rem + 2px);
+      padding: 0.25rem 0.5rem;
+      font-size: .875rem;
+      line-height: 1.5;
+      border-radius: 0.2rem;
    }
 }
 
